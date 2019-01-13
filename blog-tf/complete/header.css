@@ -1,0 +1,56 @@
+.nav {
+    border: 1px solid rgb(220, 220, 220);
+    border-left: none;
+    border-right: none;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0 auto;
+    padding: 16px 0;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.main-nav {
+    margin-bottom: 50px;
+    position: relative;
+    text-align: center;
+    padding-left: 15%;
+    padding-right: 15%;
+}
+
+.nav__item {
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.nav__item a,
+.nav__item a:active,
+.nav__item a:link,
+.nav__item a:visited {
+    color: black;
+}
+
+.nav__item a:hover {
+    color: rgba(255, 3, 115);
+}
+
+.search {
+    position: absolute;
+    right: 0;
+}
+
+.site-title,
+.site-tagline {
+    text-align: center;
+}
+
+.site-tagline {
+    color: #a1a1a1;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.site-header {
+    margin-bottom: 40px;
+}
